@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(210, 129, 210);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    margin-top:4%;
+    height: auto;
+    width: 22vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    gap:0.8vw;
+    font-size:1.2vw;
+}
+.card1-image{
+    max-height: 20vw;
+    border-radius: 10px;
+}
+#card-1{
+    padding:1%;
+}
+.description{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:0.92vw;
+}
+.card2-image{
+    max-width: 22vw;
+    height:0%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#card-2{
+    padding:0% 1% 1% 1%;
+}
+.music-logo{
+    max-height: 3vw;
+}
+.plan{
+    margin-right: auto;
+}
+.plan-options{
+    min-width: 100%;;
+    display: flex;
+    align-items: center;
+    background-color: rgb(205, 224, 232);
+    border-radius: 10px;
+    padding:1%;
+}
+.order-button{
+    text-align: center;
+    padding:4%;
+    background-color: navy;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.order-cancel{
+    text-decoration: none;
+}
+.order-cancel:visited{
+    color:rgb(236, 17, 17);
+}
